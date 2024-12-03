@@ -33,6 +33,6 @@ func main() {
 	// API 라우팅 설정
 	api.ApplyRoutes(ginEngine)
 
-	// 서버 실행
+	// 서버 실행(로컬)
 	ginEngine.Run(":8080")
 }
